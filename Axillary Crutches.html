@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wheelchair</title>
+        <link rel="stylesheet" href="wheelchair.css">
+        <link  href="http://stackpath.bootstrapcdn.com/front-awesome/4.7.0/css/front-awesome"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+
+                </div>
+                    <ul class="nav-bar">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="log.html">Account</a></li>
+                    </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="wrapper">
+                <div class="product-box">
+                    <div class="all-images">
+                        <div class="small-images">
+                            <img src="4086_copy_220x220_1.jpg" onclick="clickimg(this)">
+                            <img src="images (1)_copy_220x267_1.jpeg" onclick="clickimg(this)">
+                        </div>
+                        <div class="main-images">
+                            <img src="4086_copy_220x220_1.jpg" id="imagebox">
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="content">
+                        <h2>Axillary Crutches</h2>
+                        <p><br><b> Made In India </b></p>
+                        <div class="review">
+ 
+                        </div>
+                        <div class="price-box">
+                            <p class="price">&#8377; 4500</p>
+                        </div>
+                        <p><b> Quantity </b><input type="number" value="1"></p>
+                        <button>
+                            <i class="fa fa-shopping-cart"></i>
+                            Add to Cart 
+                        </button>
+                        <div class="dicription">
+                            <p><b> Features & details:</b>
+                                Underarm crutches are used most often by people with permanent disability or injury which make one leg completely incapable of giving any support to the upper part of the body . These are used by placing the pads against the ribcage beneath the armpits and holding the grip, which is below and parallel to the pad . Moulded axilla pad used for better comfort and cushioning effect. Ligth weight and sturdy anodized aluminium. Light weight The Elbow crutch cane is perfect aid those with bi-lateral limb orthosis. It will give better support and stability for the patients. Light weight and sturdy aluminum construction. Adjustable handgrip. Size Medium person's height > 5.2 inches and < 5.11 inches.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function clickimg(smallImg){
+                var fullImg = document.getElementById("imagebox");
+                fullImg.src = smallImg.src
+            }
+        </script>
+    </body>
+</html>    
